@@ -1,3 +1,4 @@
+# CDC Insight Engine
 This project is a Python application that extracts, transforms, and visualizes mental health indicators from the CDC Chronic Disease Indicators dataset. It allows users to:
 
 -Explore trends over time for selected demographic groups in a specific state.
@@ -12,7 +13,7 @@ This project is a Python application that extracts, transforms, and visualizes m
 
 
 
-HOW YOU RUN MY PROJECT:
+# How You Run My Project
 
 BEFORE YOU BEGIN: Make sure you have Python installed and create a virtual environment:
 
@@ -28,7 +29,7 @@ pip install -r requirements.txt
 
 THEN BEGIN:
 
-Run the ETL pipeline to download and clean the CDC dataset python code/etl.py
+-Run the ETL pipeline to download and clean the CDC dataset python code/etl.py
 
 YOU SHOULD SEE THIS IN YOUR TERMINAL: 
 
@@ -40,21 +41,21 @@ Preview of cleaned mental health dataset: year state ... group value 70 2019 Ala
 
 Total cleaned rows: 11732 ''' 
 
-A cleaned file should be saved to cache named cleaned_mental_health_data.csv
+-A cleaned file should be saved to cache named cleaned_mental_health_data.csv
 
-Run the Streamlit app streamlit run code/streamlit_app.py or streamlit run code/streamlit_app.py
+-Run the Streamlit app streamlit run code/streamlit_app.py or streamlit run code/streamlit_app.py
 
-The app will appear in your browser
+-The app will appear in your browser
 
-Inside the app, you can: Select a state to see mental–health indicator trends
+-Inside the app, you can: Select a state to see mental–health indicator trends
 
-Choose a demographic group (age, gender, race, or grade)
+-Choose a demographic group (age, gender, race, or grade)
 
-Use visualizations such as: Line plot over time, Comparison between two states, Distribution of values
+-Use visualizations such as: Line plot over time, Comparison between two states, Distribution of values
 
-Make sure you run the tests to make sure everything runs smoothly. You can go into the test column or into the code to run these tests.
+-Make sure you run the tests to make sure everything runs smoothly. You can go into the test column or into the code to run these tests.
 
-OTHER THINGS YOU SHOULD KNOW:
+# Other Things You Should Know
 
 -The ETL process is handled in etl.py:
 
